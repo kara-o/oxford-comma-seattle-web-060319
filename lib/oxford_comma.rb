@@ -9,6 +9,6 @@ def oxford_comma(array)
     array.slice(0, 2).join(', ') + ', and ' + array.slice(-1)
     
   else
-    new_array = array.slice(0..)
+    new_array = array.slice(0..(array.length - 1))
   
 end
